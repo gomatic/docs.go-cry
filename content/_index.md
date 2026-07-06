@@ -1,6 +1,7 @@
 ---
 title: go-cry
 ---
+
 **Stream encryption with [age](https://age-encryption.org), keyed by SSH keys.** The `sshage` package seals a byte stream to a set of age recipients (an SSH public key becomes a recipient) and unseals it with age identities loaded from an SSH private key — every failure carries a sentinel error matchable with `errors.Is`.
 
 - **Source:** [gomatic/go-cry](https://github.com/gomatic/go-cry)
